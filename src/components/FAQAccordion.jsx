@@ -11,7 +11,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 /**
  * FAQAccordion Component
- * Displays frequently asked questions in collapsible accordion panels
+ * Displays TWICE fan questions in collapsible accordion panels
  * Uses Material-UI Accordion component for expandable/collapsible content
  */
 function FAQAccordion() {
@@ -29,27 +29,27 @@ function FAQAccordion() {
   const faqs = [
     {
       id: 'panel1',
-      question: 'What is Material-UI?',
+      question: 'Who are the members of TWICE?',
       answer:
-        'Material-UI (MUI) is a popular React UI framework that implements Google\'s Material Design. It provides a comprehensive collection of pre-built components that are ready for use in production applications. MUI helps developers build beautiful, accessible, and responsive user interfaces quickly and efficiently.',
+        'TWICE consists of 9 talented members: Im Nayeon (Leader, Lead Vocalist), Yoo Jeongyeon (Lead Vocalist), Hirai Momo (Main Dancer), Minatozaki Sana (Vocalist), Park Jihyo (Leader, Main Vocalist), Myoui Mina (Main Dancer), Kim Dahyun (Lead Rapper), Son Chaeyoung (Main Rapper), and Chou Tzuyu (Lead Dancer).',
     },
     {
       id: 'panel2',
-      question: 'How do I install Material-UI?',
+      question: 'When was TWICE formed?',
       answer:
-        'You can install Material-UI using npm or yarn. For npm, run: "npm install @mui/material @emotion/react @emotion/styled". For yarn, run: "yarn add @mui/material @emotion/react @emotion/styled". Additionally, you may want to install Material Icons: "npm install @mui/icons-material".',
+        'TWICE was formed in 2015 through the South Korean reality competition show "Sixteen" (SIXTEEN). The group debuted on October 20, 2015, with their first single album "The Story Begins". They have since become one of the most successful K-pop girl groups worldwide.',
     },
     {
       id: 'panel3',
-      question: 'What are the benefits of using MUI components?',
+      question: 'What makes TWICE special?',
       answer:
-        'MUI components offer several benefits: (1) Consistent design following Material Design guidelines, (2) Built-in accessibility features, (3) Responsive by default, (4) Highly customizable through theming, (5) Comprehensive documentation and community support, (6) TypeScript support, and (7) Regular updates and maintenance.',
+        'TWICE is known for their "girl-next-door" concept and incredible versatility. Each member brings unique talents and personalities: from powerful vocals to amazing dance moves, clever raps to charismatic performances. Their music spans various genres including pop, R&B, hip-hop, and more, and they\'re celebrated for their genuine personalities and strong connection with fans.',
     },
     {
       id: 'panel4',
-      question: 'Can I customize MUI components?',
+      question: 'What are TWICE\'s most popular songs?',
       answer:
-        'Yes! MUI components are highly customizable. You can use the sx prop for inline styling, create custom themes using createTheme(), use styled() API for creating custom components, or override component styles globally. The theming system allows you to define custom colors, typography, spacing, and more.',
+        'Some of TWICE\'s biggest hits include "Fancy", "Feel Special", "What is Love?", "Yes or Yes", "Dance The Night Away", "The Feels", "Alcohol-Free", and "Talk that Talk". They have multiple No. 1 songs on various music charts and have broken numerous records in the K-pop industry.',
     },
   ];
 
